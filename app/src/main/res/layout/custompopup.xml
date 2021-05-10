@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/my_gradient_drawable"
+    android:padding="5dp"
+
+    android:layout_gravity="center">
+
+    <LinearLayout
+        android:id="@+id/animpop"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/animationView"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            app:lottie_rawRes="@raw/animation"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textFontWeight="900"
+
+            android:gravity="center"
+            android:textSize="25dp"
+            android:text="Always maintain a distance of 2 meters "/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textFontWeight="900"
+
+            android:gravity="center"
+            android:textSize="20dp"
+            android:text="Stay Away, Combat COVID19 "/>
+
+    </LinearLayout>
+
+    <Button
+
+        android:layout_below="@id/animpop"
+        android:id="@+id/btnfollow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Close"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="25dp"
+        android:backgroundTint="@android:color/white"
+        android:layout_gravity="center_horizontal"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:shadowColor="@color/colorAction"
+
+        android:background="@drawable/roundshapebtn"
+        android:textColor="@android:color/black"/>
+
+</RelativeLayout>

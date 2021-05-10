@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3EDED"
+    tools:context=".OTPActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/roundcard"
+        android:id="@+id/card"
+        android:weightSum="100">
+
+
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="match_parent"
+            android:layout_height="625dp"
+            android:src="@drawable/gif_file1"
+            />
+
+    </LinearLayout>
+</LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="100">
+
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="20dp"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:layout_weight="25"
+                android:weightSum="100">
+                <EditText
+                    android:id="@+id/editTextCode"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="2"
+                    android:inputType="phone"
+                    android:textSize="15dp"
+                    android:hint="Enter OTP"
+                    android:textColor="#F8F7F7"
+                    android:maxLength="10"
+                    android:background="@drawable/roundshapebtn"
+                    android:layout_margin="10dp"
+                    android:paddingLeft="25dp"
+
+                     android:shadowColor="#323030"
+                    android:textColorHint="@android:color/tertiary_text_dark" />
+
+                <ProgressBar
+                    android:id="@+id/progressbar"
+                    style="?android:attr/progressBarStyle"
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:layout_below="@+id/editTextCode"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="-214dp"
+                    android:visibility="gone"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout4"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="50dp"
+                android:orientation="horizontal"
+                android:layout_weight="25"
+                android:gravity="center"
+                android:weightSum="100">
+                <Button
+                    android:id="@+id/buttonSignIn"
+                    android:layout_width="180dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:shadowColor="@android:color/black"
+                    android:text="@string/next"
+                    android:backgroundTint="@color/colorAction"
+                    android:shadowDx="10"
+                    android:shadowDy="20"
+                    android:textAllCaps="false"
+                    android:background="@drawable/roundshapebtn"
+                    android:textColor="#FFFFFF"
+                    android:textSize="15dp"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

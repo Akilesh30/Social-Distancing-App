@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".Analytics">
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:orientation="horizontal"
+         android:weightSum="100"
+         android:paddingLeft="10dp">
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="match_parent"
+              android:layout_weight="1"
+              android:text="Hits"
+              android:textSize="15sp"
+              android:gravity="center"
+              android:textColor="@color/colorPrimary"/>
+
+<LinearLayout
+    android:id="@+id/graph"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="25dp"
+
+    android:layout_marginBottom="25dp"
+    android:layout_weight="99"
+    android:weightSum="100">
+     <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/chart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints"
+         android:layout_weight="99"
+         />
+     <TextView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_weight="1"
+       android:textSize="15dp"
+         android:gravity="center"
+         android:textColor="@color/colorPrimary"
+         android:text="Date"
+         />
+</LinearLayout>
+     </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

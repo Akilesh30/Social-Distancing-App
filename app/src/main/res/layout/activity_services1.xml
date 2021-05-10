@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/intro_title_color"
+    android:layout_height="match_parent"
+    tools:context=".Services">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scroll"
+        android:layout_weight="20"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="35dp"
+            android:orientation="vertical">
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:minHeight="148dp"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Button"
+                android:theme="@style/FormButton"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp"
+                app:shapeAppearance="@style/ShapeAppearance.MyApp.MediumComponent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorAction"
+                    android:orientation="vertical">
+
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="194dp"
+                        android:background="@android:color/transparent"
+                        android:contentDescription="Card Image"
+                        android:scaleType="centerCrop"
+                        app:backgroundTint="@color/material_on_surface_emphasis_medium"
+
+                        app:backgroundTintMode="add"
+                        app:srcCompat="@drawable/corporateevents" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="16dp"
+                        android:maxLines="2"
+                        android:text="Corperate Events"
+                        android:textColor="#FFFFFF" />
+
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:minHeight="148dp"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Button"
+                android:theme="@style/FormButton"
+
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorAction"
+                    android:orientation="vertical">
+
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="194dp"
+                        android:background="@android:color/transparent"
+                        android:contentDescription="Card Image"
+                        android:scaleType="centerCrop"
+                        app:backgroundTint="@color/material_on_surface_emphasis_medium"
+
+                        app:backgroundTintMode="add"
+                        app:srcCompat="@drawable/subscriptionservice" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="16dp"
+                        android:maxLines="2"
+                        android:text="Subscription Services"
+                        android:textColor="#FFFFFF" />
+
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:minHeight="148dp"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Button"
+                android:theme="@style/FormButton"
+
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorAction"
+                    android:orientation="vertical">
+
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="194dp"
+                        android:background="@android:color/transparent"
+                        android:contentDescription="Card Image"
+                        android:scaleType="centerCrop"
+                        app:backgroundTint="@color/material_on_surface_emphasis_medium"
+
+                        app:backgroundTintMode="add"
+                        app:srcCompat="@drawable/industrialservice" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="16dp"
+                        android:maxLines="2"
+                        android:text="Industrial Service"
+                        android:textColor="#FFFFFF" />
+
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:minHeight="148dp"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Button"
+                android:theme="@style/FormButton"
+
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorAction"
+                    android:orientation="vertical">
+
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="194dp"
+                        android:background="@android:color/transparent"
+                        android:contentDescription="Card Image"
+                        android:scaleType="centerCrop"
+                        app:backgroundTint="@color/material_on_surface_emphasis_medium"
+
+                        app:backgroundTintMode="add"
+                        app:srcCompat="@drawable/institutionalservice" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="16dp"
+                        android:maxLines="2"
+                        android:textColor="#FFFFFF"
+                        android:text="Institutional Service" />
+
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:minHeight="148dp"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Button"
+                android:theme="@style/FormButton"
+
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorAction"
+                    android:orientation="vertical">
+
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="194dp"
+                        android:background="@android:color/transparent"
+                        android:contentDescription="Card Image"
+                        android:scaleType="centerCrop"
+                        app:backgroundTint="@color/material_on_surface_emphasis_medium"
+
+                        app:backgroundTintMode="add"
+                        app:srcCompat="@drawable/publicevents" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="16dp"
+                        android:maxLines="2"
+                        android:textColor="#FFFFFF"
+                        android:text="Public Events" />
+
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:minHeight="148dp"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Button"
+                android:theme="@style/FormButton"
+
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorAction"
+                    android:orientation="vertical">
+
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="194dp"
+                        android:background="@android:color/transparent"
+                        android:contentDescription="Card Image"
+                        android:scaleType="centerCrop"
+                        app:backgroundTint="@color/material_on_surface_emphasis_medium"
+
+                        app:backgroundTintMode="add"
+                        app:srcCompat="@drawable/familyevents" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="16dp"
+                        android:maxLines="2"
+                        android:text="Family Events"
+                        android:textColor="#FFFFFF" />
+
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_below="@id/scroll"
+        android:layout_height="55dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text=""></TextView>
+
+    </LinearLayout>
+</LinearLayout>
+</RelativeLayout>

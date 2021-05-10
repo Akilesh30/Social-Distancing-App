@@ -1,0 +1,106 @@
+{
+  "project_info": {
+    "project_number": "571192510522",
+    "firebase_url": "https://hogistsd.firebaseio.com",
+    "project_id": "hogistsd",
+    "storage_bucket": "hogistsd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:571192510522:android:3fa6d68e8de1bf80f80d03",
+        "android_client_info": {
+          "package_name": "com.example.hogist_social_distancing"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "571192510522-kj2a7ge6c8fgdg500m2thn8ckbcvi18k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVpk4w-5MgkJI_DhM6I4SDoouhR9UDIn8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "571192510522-kj2a7ge6c8fgdg500m2thn8ckbcvi18k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:571192510522:android:f2bdb022ac8f9241f80d03",
+        "android_client_info": {
+          "package_name": "com.example.hogistsd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "571192510522-kj2a7ge6c8fgdg500m2thn8ckbcvi18k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVpk4w-5MgkJI_DhM6I4SDoouhR9UDIn8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "571192510522-kj2a7ge6c8fgdg500m2thn8ckbcvi18k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:571192510522:android:02396508ecce4bcdf80d03",
+        "android_client_info": {
+          "package_name": "org.altbeacon.beaconreference"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "571192510522-4rpdk83jbf5t8tvitibvrdqqnldqv07d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.altbeacon.beaconreference",
+            "certificate_hash": "1cce1c94b4359af0ace60fa1013e3c4022f8cbaa"
+          }
+        },
+        {
+          "client_id": "571192510522-kj2a7ge6c8fgdg500m2thn8ckbcvi18k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVpk4w-5MgkJI_DhM6I4SDoouhR9UDIn8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "571192510522-kj2a7ge6c8fgdg500m2thn8ckbcvi18k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

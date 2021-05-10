@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+
+
+    <!--    <androidx.constraintlayout.widget.Guideline-->
+    <!--        android:id="@+id/guideline"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:orientation="horizontal"-->
+    <!--        app:layout_constraintGuide_percent="0.56882256"  />-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="100"
+        android:orientation="vertical"
+
+        android:layout_marginTop="50dp">
+        <LinearLayout
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="755dp"
+            android:orientation="vertical"
+            android:layout_marginTop="75dp"
+            android:layout_weight="30">
+
+            <ImageView
+                android:id="@+id/intro_img"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:srcCompat="@tools:sample/avatars" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="100"
+            android:layout_below="@id/image"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/intro_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:layout_gravity="center"
+                android:textColor="@color/intro_title_color"
+                android:textSize="32dp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:lineSpacingExtra="16dp"
+                android:id="@+id/intro_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="TextView"
+                android:textColor="@color/intro_title_color"
+                android:textAlignment="center"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>
